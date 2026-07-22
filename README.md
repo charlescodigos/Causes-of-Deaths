@@ -2,8 +2,6 @@
 
 (Manuscript submitted for publication)
 
-The repository provides estimates of the contributions of 278 causes of death to annual changes in life expectancy at birth in Brazil, its regions and its states between 2000 and 2024, disaggregated by age and sex.
-
 ## Description
 
 Data sources:  
