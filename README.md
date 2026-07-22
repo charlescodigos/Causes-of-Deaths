@@ -14,8 +14,6 @@ The Methods section of the article describes the data processing procedures used
 
 The file 'DecompositionCode.R' reads the processed dataset and decomposes annual changes in life expectancy at birth by cause of death between 2000 and 2024 using the continuous-change decomposition method of Horiuchi, Wilmoth, and Pletcher (2008), implemented through the DemoDecomp R package (Riffe, 2024). Running the full decomposition requires approximately 36 hours.
 
-The file 'Results.xlsx' contains all decomposition results presented in the article.
-
 The file 'SupplementalData.xlsx' associates cause of deaths with its respective ICD-10 code.
 
 
