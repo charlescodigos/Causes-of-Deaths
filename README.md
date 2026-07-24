@@ -4,16 +4,12 @@
 
 ## Description
 
-Data sources:  
-•	Total deaths and population estimates from the IBGE 2024 Population Revision are publicly available at: https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html?=&t=resultados  
-•	Deaths by cause from the Brazilian Mortality Information System (SIM) are publicly available at: https://opendatasus.saude.gov.br/dataset/sim 
+The code repository is organized into a sequence of scripts that:  
+-	Download cause-specific mortality data from the Brazilian Ministry of Health's Mortality Information System (SIM).  
+-	Process the raw data and calculate mortality rates using IBGE population estimates and death counts.  
+-	Perform the life expectancy decomposition following the method of Horiuchi, Wilmoth and Pletcher (2008) in R package DemoDecomp by Riffe (2024).
 
-The Methods section of the article describes the data processing procedures used to generate an aggregated dataset of mortality rates by age, sex, geographic region, year, and cause of death. The resulting dataset comprises **approximately 14 million observations**.
-
-The file 'DecompositionCode.R' reads the processed dataset and decomposes annual changes in life expectancy at birth by cause of death between 2000 and 2024 using the continuous-change decomposition method of Horiuchi, Wilmoth, and Pletcher (2008), implemented through the DemoDecomp R package (Riffe, 2024). Running the full decomposition requires **approximately 36 hours**.
-
-The file 'SupplementalData.xlsx' associates cause of death with its respective ICD-10 code.
-
+Running the decomposition is computationally intensive and may take **approximately 36 hours** to complete.
 
 ## Authors
 
