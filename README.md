@@ -4,7 +4,7 @@
 
 ## Description
 
-The code repository is organized into a sequence of scripts that:  
+The code repository is organized into a sequence of steps that:  
 
 -	Download cause-specific mortality data from the Brazilian Ministry of Health's Mortality Information System (SIM);  
 - Process the raw data and calculate mortality rates using IBGE population estimates and death counts;  
