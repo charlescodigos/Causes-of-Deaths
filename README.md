@@ -11,6 +11,12 @@ The code repository is organized into a sequence of scripts that:
 
 Running the decomposition is computationally intensive and may take **approximately 36 hours** to complete.
 
+## Structure
+
+-	dat: data (cause-specific counts, total population, total deaths, ICD-10 labels)    
+-	out: output figures and table  
+-	src: code to replicate data processing, decomposition, analysis, and visualization
+
 ## Authors
 
 Charles H Correa, PhD in Economics, Central Bank of Brazil  
