@@ -9,7 +9,7 @@ The code repository is organized into a sequence of steps that:
 -	Download cause-specific mortality data from the Brazilian Ministry of Health's Mortality Information System (SIM);  
 - Process the raw data and calculate mortality rates using IBGE population estimates and death counts;  
 - Perform life expectancy decomposition from Horiuchi, Wilmoth and Pletcher (2008) in R package DemoDecomp by Riffe (2024);  
-- Plot table and figures.
+- Create table and figures.
 
 Running the decomposition is computationally intensive and may take **approximately 36 hours** to complete.
 
