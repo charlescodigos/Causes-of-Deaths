@@ -15,9 +15,9 @@ Running the decomposition is computationally intensive and may take **approximat
 
 ## Structure
 
--	dat: data (cause-specific counts, total population, total deaths, ICD-10 labels)    
--	out: output figures and table  
--	src: code to replicate data processing, decomposition, analysis, and visualization
+1 - dat: data (cause-specific counts, total population, total deaths, ICD-10 labels)    
+2 -	src: code to replicate data processing, decomposition, analysis, and visualization
+3 - out: output figures and table  
 
 ## Authors
 
